@@ -1,10 +1,11 @@
 # What's This
 
 This repository is an npm module and a JavaScript MAVLink implementation to parse MAVLink messages, generated using [Parrot MAVLink repository](https://github.com/Parrot-Developers/mavlink/tree/master/pymavlink/generator/javascript),
-with the multiple dialects, including `all` and `common` for now, using Mavlink v1.0 protocol.
+with the multiple dialects, including `all` and `common` for now, using Mavlink v1.0 and v2.0 protocol.
 
 # Import
 
+## Using v1.0 protocpl
 
 ```JavaScript
 const { mavlink10: mavlink, MAVLink10Processor: MAVLink } = require('mavlinkjs/mavlink_all_v1');
@@ -14,6 +15,18 @@ or
 
 ```JavaScript
 import { mavlink10 as mavlink, MAVLink10Processor as MAVLink } from 'mavlinkjs/mavlink_all_v1';
+```
+
+## Using v2.0 protocol
+
+```JavaScript
+const { mavlink20: mavlink, MAVLink20Processor: MAVLink } = require('mavlinkjs/mavlink_all_v2');
+```
+
+or
+
+```JavaScript
+import { mavlink20 as mavlink, MAVLink20Processor as MAVLink } from 'mavlinkjs/mavlink_all_v2';
 ```
 
 # Usage

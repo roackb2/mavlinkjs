@@ -1,6 +1,6 @@
  {
     "name" : "mavlinkjs",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "Implementation of the MAVLink protocol",
     "keywords" : ["mavlink", "arduino", "megapilot", "ros", "robot", "uav", "drone", "awesome"],
     "homepage": "https://github.com/roackb2/mavlinkjs",
